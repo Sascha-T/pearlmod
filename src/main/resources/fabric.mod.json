@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlmod",
+  "version": "${version}",
+  "name": "PearlMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "server",
+  "mixins": [
+    "pearlmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
